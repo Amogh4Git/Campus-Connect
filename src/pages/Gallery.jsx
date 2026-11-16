@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import eventsData from '../data/events.json'
 import Lightbox from '../components/Lightbox'
+import { getAssetUrl } from '../utils/imageHelper'
 
 export default function Gallery() {
   const [category, setCategory] = useState('All')
@@ -141,7 +142,7 @@ export default function Gallery() {
                 className="gallery-item"
                 onClick={() => openLightbox(i)}
               >
-                <img src={photo.src} alt={photo.eventTitle} loading="lazy" />
+                <img src={getAssetUrl(photo.src)} alt={photo.eventTitle} loading="lazy" />
                 <div className="gallery-item-overlay">
                   <span>{photo.eventTitle}</span>
                 </div>
@@ -168,7 +169,7 @@ export default function Gallery() {
         {/* Lightbox */}
         {lightboxOpen && filteredPhotos.length > 0 && (
           <Lightbox
-            photos={filteredPhotos.map((p) => p.src)}
+            photos={filteredPhotos.map((p) => getAssetUrl(p.src))}
             currentIndex={lightboxIndex}
             onClose={closeLightbox}
             onPrev={prevPhoto}

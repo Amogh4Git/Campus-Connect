@@ -30,7 +30,7 @@ export default function Navbar({ currentPage, onNavigate, onOpenUpload, favorite
           onClick={() => handleNav('home')}
           style={{ border: 'none', background: 'none' }}
         >
-          <img src="/images/logo.jpg" alt="Campus Connect" className="navbar-logo" />
+          <img src="./images/logo.jpg" alt="Campus Connect" className="navbar-logo" />
           <span className="navbar-title">Campus Connect</span>
         </button>
 

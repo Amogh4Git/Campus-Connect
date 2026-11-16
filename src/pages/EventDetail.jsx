@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Lightbox from '../components/Lightbox'
 import CommentBox from '../components/CommentBox'
+import { getAssetUrl } from '../utils/imageHelper'
 
 export default function EventDetail({ event, onBack, isFavorite, onToggleFavorite }) {
   const [lightboxOpen, setLightboxOpen] = useState(false)
@@ -78,7 +79,7 @@ export default function EventDetail({ event, onBack, isFavorite, onToggleFavorit
               className="photo-grid-item"
               onClick={() => openLightbox(i)}
             >
-              <img src={photo} alt={`${event.title} - Photo ${i + 1}`} />
+              <img src={getAssetUrl(photo)} alt={`${event.title} - Photo ${i + 1}`} />
             </div>
           ))}
         </div>
@@ -104,7 +105,7 @@ export default function EventDetail({ event, onBack, isFavorite, onToggleFavorit
         {/* Lightbox */}
         {lightboxOpen && (
           <Lightbox
-            photos={event.photos}
+            photos={event.photos.map((p) => getAssetUrl(p))}
             currentIndex={lightboxIndex}
             onClose={closeLightbox}
             onPrev={prevPhoto}

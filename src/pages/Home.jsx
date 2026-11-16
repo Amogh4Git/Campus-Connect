@@ -1,5 +1,6 @@
 import eventsData from '../data/events.json'
 import EventCard from '../components/EventCard'
+import { getAssetUrl } from '../utils/imageHelper'
 
 export default function Home({ onNavigate, onEventClick, onOpenUpload, favorites = [], onToggleFavorite }) {
   // Get 3 most recent events
@@ -85,7 +86,7 @@ export default function Home({ onNavigate, onEventClick, onOpenUpload, favorites
             <div className="col-lg-6">
               <div className="hero-image-grid">
                 {heroImages.map((img, i) => (
-                  <img key={i} src={img} alt={`Campus event ${i + 1}`} />
+                  <img key={i} src={getAssetUrl(img)} alt={`Campus event ${i + 1}`} />
                 ))}
               </div>
             </div>

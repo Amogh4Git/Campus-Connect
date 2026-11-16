@@ -6,13 +6,13 @@
     "category": "Cultural",
     "description": "The annual cultural extravaganza of IIIT Lucknow featuring dance, music, drama, and art competitions. Students from across colleges participated in this vibrant celebration of talent and creativity.",
     "photos": [
-      "/images/events/cultural-fest-2025/photo1.jpg",
-      "/images/events/cultural-fest-2025/photo2.jpg",
-      "/images/events/cultural-fest-2025/photo3.jpg",
-      "/images/events/cultural-fest-2025/photo4.jpg"
+      "./images/events/cultural-fest-2025/photo1.jpg",
+      "./images/events/cultural-fest-2025/photo2.jpg",
+      "./images/events/cultural-fest-2025/photo3.jpg",
+      "./images/events/cultural-fest-2025/photo4.jpg"
     ],
     "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "thumbnail": "/images/events/cultural-fest-2025/photo1.jpg"
+    "thumbnail": "./images/events/cultural-fest-2025/photo1.jpg"
   },
   {
     "id": 2,
@@ -21,12 +21,12 @@
     "category": "Tech",
     "description": "A two-day technology summit featuring workshops on AI/ML, web development, and cybersecurity. Industry leaders shared insights and students showcased innovative projects.",
     "photos": [
-      "/images/events/tech-summit-2025/photo1.jpg",
-      "/images/events/tech-summit-2025/photo2.jpg",
-      "/images/events/tech-summit-2025/photo3.jpg"
+      "./images/events/tech-summit-2025/photo1.jpg",
+      "./images/events/tech-summit-2025/photo2.jpg",
+      "./images/events/tech-summit-2025/photo3.jpg"
     ],
     "videoUrl": "",
-    "thumbnail": "/images/events/tech-summit-2025/photo1.jpg"
+    "thumbnail": "./images/events/tech-summit-2025/photo1.jpg"
   },
   {
     "id": 3,
@@ -35,27 +35,27 @@
     "category": "Sports",
     "description": "The inter-department sports championship featuring cricket, football, basketball, athletics, and indoor games. A celebration of sportsmanship and campus spirit.",
     "photos": [
-      "/images/events/sports-day-2025/photo1.jpg",
-      "/images/events/sports-day-2025/photo2.jpg",
-      "/images/events/sports-day-2025/photo3.jpg",
-      "/images/events/sports-day-2025/photo4.jpg"
+      "./images/events/sports-day-2025/photo1.jpg",
+      "./images/events/sports-day-2025/photo2.jpg",
+      "./images/events/sports-day-2025/photo3.jpg",
+      "./images/events/sports-day-2025/photo4.jpg"
     ],
     "videoUrl": "",
-    "thumbnail": "/images/events/sports-day-2025/photo1.jpg"
+    "thumbnail": "./images/events/sports-day-2025/photo1.jpg"
   },
   {
     "id": 4,
     "title": "HackIIIT - 24hr Hackathon 2024",
     "date": "2024-11-10",
     "category": "Tech",
-    "description": "A 24-hour hackathon where teams of 4 built solutions for real-world problems. Categories included HealthTech, EdTech, and FinTech with prizes worth ₹50,000.",
+    "description": "A 24-hour hackathon where teams of 4 built solutions for real-world problems. Categories included HealthTech, EdTech, and FinTech with prizes worth \u20b950,000.",
     "photos": [
-      "/images/events/hackathon-2024/photo1.jpg",
-      "/images/events/hackathon-2024/photo2.jpg",
-      "/images/events/hackathon-2024/photo3.jpg"
+      "./images/events/hackathon-2024/photo1.jpg",
+      "./images/events/hackathon-2024/photo2.jpg",
+      "./images/events/hackathon-2024/photo3.jpg"
     ],
     "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "thumbnail": "/images/events/hackathon-2024/photo1.jpg"
+    "thumbnail": "./images/events/hackathon-2024/photo1.jpg"
   },
   {
     "id": 5,
@@ -64,13 +64,13 @@
     "category": "Cultural",
     "description": "The flagship annual festival of IIIT Lucknow with celebrity performances, fashion shows, stand-up comedy, and food stalls. Three days of non-stop entertainment.",
     "photos": [
-      "/images/events/annual-fest-2024/photo1.jpg",
-      "/images/events/annual-fest-2024/photo2.jpg",
-      "/images/events/annual-fest-2024/photo3.jpg",
-      "/images/events/annual-fest-2024/photo4.jpg"
+      "./images/events/annual-fest-2024/photo1.jpg",
+      "./images/events/annual-fest-2024/photo2.jpg",
+      "./images/events/annual-fest-2024/photo3.jpg",
+      "./images/events/annual-fest-2024/photo4.jpg"
     ],
     "videoUrl": "",
-    "thumbnail": "/images/events/annual-fest-2024/photo1.jpg"
+    "thumbnail": "./images/events/annual-fest-2024/photo1.jpg"
   },
   {
     "id": 6,
@@ -79,12 +79,11 @@
     "category": "Tech",
     "description": "An intense competitive programming contest with 200+ participants. Three rounds of algorithmic challenges tested problem-solving skills and coding speed.",
     "photos": [
-      "/images/events/coding-contest-2024/photo1.jpg",
-      "/images/events/coding-contest-2024/photo2.jpg",
-      "/images/events/coding-contest-2024/photo3.jpg"
+      "./images/events/coding-contest-2024/photo1.jpg",
+      "./images/events/coding-contest-2024/photo2.jpg",
+      "./images/events/coding-contest-2024/photo3.jpg"
     ],
     "videoUrl": "",
-    "thumbnail": "/images/events/coding-contest-2024/photo1.jpg"
+    "thumbnail": "./images/events/coding-contest-2024/photo1.jpg"
   }
 ]
-

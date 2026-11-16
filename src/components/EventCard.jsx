@@ -1,3 +1,5 @@
+import { getAssetUrl } from '../utils/imageHelper'
+
 export default function EventCard({ event, onClick, isFavorite, onToggleFavorite }) {
   const formatDate = (dateStr) => {
     const date = new Date(dateStr)
@@ -18,7 +20,7 @@ export default function EventCard({ event, onClick, isFavorite, onToggleFavorite
   return (
     <div className="event-card" onClick={() => onClick(event)}>
       <div className="event-card-image">
-        <img src={event.thumbnail} alt={event.title} />
+        <img src={getAssetUrl(event.thumbnail)} alt={event.title} />
         <div className="event-card-overlay"></div>
         <span className={`category-pill ${event.category.toLowerCase()}`}>
           {event.category}

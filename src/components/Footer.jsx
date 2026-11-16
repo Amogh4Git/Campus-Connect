@@ -6,7 +6,7 @@ export default function Footer({ onNavigate, onOpenUpload }) {
           {/* Brand Column */}
           <div className="col-lg-4 col-md-6">
             <div className="footer-brand">
-              <img src="/images/logo.jpg" alt="Campus Connect" />
+              <img src="./images/logo.jpg" alt="Campus Connect" />
               <span>Campus Connect</span>
             </div>
             <p className="footer-text">
