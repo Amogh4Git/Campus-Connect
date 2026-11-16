@@ -20,3 +20,4 @@ export function getAssetUrl(path) {
   const normalizedBase = base.endsWith('/') ? base : `${base}/`
   return `${normalizedBase}${cleanPath}`
 }
+
