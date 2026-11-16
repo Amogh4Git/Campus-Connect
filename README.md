@@ -38,8 +38,8 @@ Campus Connect is a student-made photo album website for IIIT Lucknow. Cultural,
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-org/campus-connect.git
-cd campus-connect
+git clone https://github.com/Amogh4Git/Campus-Connect.git
+cd Campus-Connect
 
 # Install dependencies
 npm install
@@ -50,6 +50,36 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+## Deployment Guide
+
+You can deploy Campus Connect for free in less than 2 minutes using any of the three options below:
+
+### Option 1: GitHub Pages (Automated - Pre-configured)
+This repository includes an automated GitHub Actions workflow (`.github/workflows/deploy.yml`):
+1. Push your code to GitHub:
+   ```bash
+   git push origin main
+   ```
+2. In your GitHub repository, go to **Settings** → **Pages**.
+3. Under **Build and deployment** → **Source**, select **GitHub Actions**.
+4. The workflow will automatically build and publish the site to:
+   `https://<your-username>.github.io/Campus-Connect/`
+
+### Option 2: Vercel (Recommended - 1 Click)
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub.
+2. Click **"Add New Project"** and select **`Campus-Connect`**.
+3. Keep the default settings (Framework Preset: **Vite**, Build Command: `npm run build`, Output Directory: `dist`).
+4. Click **Deploy**. Your site will be live instantly with a free `.vercel.app` domain.
+
+### Option 3: Netlify
+1. Go to [netlify.com](https://netlify.com) and sign in.
+2. Click **"Add new site"** → **"Import an existing project"** → **GitHub**.
+3. Select **`Campus-Connect`**.
+4. Build settings will auto-detect:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+5. Click **Deploy Campus-Connect**.
 
 ## Project Structure
 
